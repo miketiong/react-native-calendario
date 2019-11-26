@@ -84,6 +84,36 @@ export function getMonthNames(locale: LocaleType): string[] {
         'November',
         'December',
       ];
+    case 'zh':
+      return [
+        '1月',
+        '2月',
+        '3月',
+        '4月',
+        '5月',
+        '6月',
+        '7月',
+        '8月',
+        '9月',
+        '10月',
+        '11月',
+        '12月',
+      ];
+    case 'ch':
+      return [
+        '1月',
+        '2月',
+        '3月',
+        '4月',
+        '5月',
+        '6月',
+        '7月',
+        '8月',
+        '9月',
+        '10月',
+        '11月',
+        '12月',
+      ];
     case 'fr':
       return [
         'Janvier',
@@ -138,6 +168,10 @@ function getWeekdayNames(locale: LocaleType): string[] {
       return ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sab'];
     case 'en':
       return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    case 'zh':
+      return ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    case 'ch':
+      return ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
     case 'fr':
       return ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
     case 'br':
